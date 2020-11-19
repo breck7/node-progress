@@ -33,7 +33,7 @@ These are keys in the options object you can pass to the progress bar along with
 - `curr` current completed index
 - `total` total number of ticks to complete
 - `width` the displayed width of the progress bar defaulting to total
-- `stream` the output stream defaulting to stderr
+- `stream` the TTY output stream defaulting to stderr
 - `head` head character defaulting to complete character
 - `complete` completion character defaulting to "="
 - `incomplete` incomplete character defaulting to "-"
